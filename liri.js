@@ -26,7 +26,7 @@ $$    $$/ $$    $$/ $$ | $$$ |$$    $$/ $$       |$$ |  $$ |   $$ |            $
  $$$$$$/   $$$$$$/  $$/   $$/  $$$$$$/  $$$$$$$$/ $$/   $$/    $$/             $$/   $$/   $$/ $$$$$$/  $$$$$$/  
 
 `);
-    // Run a request with axios to the Bandsintown API with the movie specified
+    // Run a request with axios to the Bandsintown API with the artist specified
     axios.get(`https://rest.bandsintown.com/artists/${artist}/events?app_id=codingbootcamp`)
       .then(function concertThis(response) {
 
@@ -76,7 +76,7 @@ $$    $$/ $$    $$/ $$ | $$$ |$$    $$/ $$       |$$ |  $$ |   $$ |            $
         console.log("Track: " + response.tracks.items[0].name);
         // Album name
         console.log("Album: " + response.tracks.items[0].album.name);
-        // Album name
+        // Track URL
         console.log("URL: " + response.tracks.items[0].preview_url);
       })
       .catch(function(err) {

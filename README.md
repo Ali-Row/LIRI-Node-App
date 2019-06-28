@@ -12,10 +12,10 @@ This is my **Language Interpretation and Recognition Interface** that I made dur
 
 *Step 4:* You must add a dotenv file containing a spotify "ID" & "CLIENT" to the root folder of the project, like this 
 
-# Spotify API keys
+### Spotify API keys
 
-# SPOTIFY_ID=cedef793cefd93461437
-# SPOTIFY_SECRET=cdfe678ec78e98c980e9c0
+### SPOTIFY_ID=cedef793cefd93461437
+### SPOTIFY_SECRET=cdfe678ec78e98c980e9c0
 
 *Step 5:* In the same terminal you can search for 4 different things in your Visual Studio Code terminal, simply type "spotify-this-song" and add a song name of your choice, 
 like this **node liri.js spotify-this-song** ***songname*** or

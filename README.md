@@ -12,7 +12,7 @@ This is my **Language Interpretation and Recognition Interface** that I made dur
 
 *Step 4:* You must add a dotenv file containing a spotify "ID" & "CLIENT" to the root folder of the project, like this 
 
-### Spotify API keys
+### Example Spotify API keys
 
 ### SPOTIFY_ID=cedef793cefd93461437
 ### SPOTIFY_SECRET=cdfe678ec78e98c980e9c0
